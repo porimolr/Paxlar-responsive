@@ -2,6 +2,9 @@
     .navbar-toggler:focus {
         box-shadow: none;    
     }
+    .heading h2 {
+        font-size: 40px; 
+    }
     .header_five {
         width: 40%;
     }
@@ -28,9 +31,12 @@
         margin-left: 18px !important;
     }
     .table {
-        width: 70%;
+        width: 88%;
         margin: auto;
         margin-bottom: 50px;
+    }
+    .ser_item p {
+        width: 80%;
     }
     .img {
         display: none;
@@ -69,7 +75,12 @@
         font-size: 12px;
 
     }
-
+    .form_item input {
+        margin-bottom: -32px;
+    }
+    .form_item textarea {
+        margin-top: 24px;
+    }
     .mobile {
         display: none;
     }
@@ -85,9 +96,12 @@
         margin: auto;
     }
     .blogs_item {
-        margin-top: 130px !important;
-        width: 74%;
+        margin-top: 60px !important;
+        width: 88%;
         margin: auto;
+    }
+    .blog_text {
+        gap: 226px;  
     }
     .feedback_span span {
         margin-bottom: 150px;
@@ -97,7 +111,7 @@
         margin-bottom: 80px;
     }
     .feed_icon {
-        margin-left: 18%;
+        margin-left: 15%;
     }
     footer {
         text-align: center;
